@@ -1,0 +1,70 @@
+.notifications-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-header {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.header-content {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-content > a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
+
+.notifications-container > h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.no-notifications-message {
+  text-align: center;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background: #f3f3f3;
+  padding: 16px 8px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.notification + .notification {
+  margin-top: 20px;
+}
+
+.notification > strong {
+  font-size: 18px;
+  margin-bottom: 4px;
+}

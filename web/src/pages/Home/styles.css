@@ -1,0 +1,40 @@
+.homepage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+}
+
+.input-block > input {
+  border: 0;
+  padding: 8px 6px;
+  border-bottom: 1px solid #000;
+  background: #f7f7f7;
+}
+
+.input-block > label {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.register-button {
+  margin-top: 10px;
+  padding: 5px 0;
+  border: 1px dashed #212121;
+  background: #fff;
+}
