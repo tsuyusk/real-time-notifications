@@ -40,5 +40,8 @@
     # Go to http://localhost:3000
   ```
 
+# How to send a notification
+  For sending a notification, You have to make a POST request to http://localhost:3333/notification, with the target_name, title and description in the request body
+
 Made with 💜 by tsuyusk
 
